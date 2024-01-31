@@ -1,0 +1,271 @@
+.desktop-right-nav {
+  display: none;
+}
+
+.h2-header-wrapper > div{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+
+}
+
+.h2-header-wrapper > div > div{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+h1 {
+  font-weight: normal;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+.custom-web-header {
+  text-transform: uppercase;
+  color: rgb(13, 140, 193);
+}
+
+.our-solutions-header {
+  color: white;
+  text-transform: uppercase;
+}
+
+.our-solutions-wrapper {
+  background-color: rgb(13, 140, 193);
+  padding: 60px 40px;
+}
+
+.our-solutions-wrapper > div {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.left-solution-card-wrapper {
+  display: none;
+}
+
+.more-information-btn {
+  cursor: pointer;
+  background-color: rgb(8, 87, 122);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 1000px;
+  border: none;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+.our-solutions-text {
+  color: white;
+}
+
+.view-portfolio-btn {
+  width: fit-content;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: rgb(8, 87, 122);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 1000px;
+  border: none;
+}
+.gi-hamburger-menu {
+  cursor: pointer;
+}
+
+.h2-header-wrapper {
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.career-opportunities {
+  padding: 10px 20px;
+
+  cursor: pointer;
+  background-color: rgb(8, 87, 122);
+  color: white;
+  width: fit-content;
+  border-top-right-radius: 1000px;
+  border-bottom-right-radius: 1000px;
+  text-transform: uppercase;
+}
+
+.career-opportunities-wrapper {
+  display: flex;
+}
+
+.contact-us-btn {
+  background-color: lightgray;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 1000px;
+  text-transform: uppercase;
+}
+
+.contact-us-wrapper {
+  display: none;
+}
+
+.nav-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.website-wrapper {
+  display: none;
+}
+
+@media screen and (min-width: 1000px) {
+  .website-wrapper {
+    display: block;
+  }
+  .website-wrapper-inner {
+    border: 1px solid black;
+    height: 400px;
+  }
+  .career-opportunities {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 1000px;
+    border-bottom-left-radius: 1000px;
+  }
+  .career-opportunities-wrapper {
+    justify-content: flex-end;
+  }
+
+  .desktop-right-nav {
+    display: flex;
+    gap: 30px;
+  }
+  .gi-hamburger-menu {
+    display: none;
+  }
+
+  .desktop-right-nav > div {
+    text-transform: uppercase;
+  }
+
+  .contact-us-wrapper-inner {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .contact-us-wrapper-inner > * {
+    cursor: pointer;
+  }
+  .contact-us-wrapper {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .h2-header-wrapper {
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    padding-bottom: 180px;
+    max-width: 2000px;
+    margin: 0 auto;
+  }
+
+  .our-solutions-wrapper {
+    max-width: 2000px;
+    margin: 0 auto;
+  }
+
+  .our-solutions-wrapper-outer {
+    background-color: rgb(13, 140, 193);
+  }
+
+  .h2-header-wrapper-outer {
+  }
+
+  .custom-web-header {
+    font-size: 3rem;
+  }
+
+  .h2-header-wrapper > div {
+    flex: 1;
+  }
+
+  .left-solution-card-wrapper {
+    display: block;
+  }
+
+  .our-solutions-wrapper > div {
+    flex-direction: row;
+  }
+  .our-solutions-wrapper > div > div {
+    flex: 1;
+  }
+
+  .left-solution-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .left-solution-card-wrapper > div {
+    flex: 1;
+  }
+
+  .card-wrapper-1 {
+    display: flex;
+    gap: 20px;
+  }
+  .card-wrapper-1 > div:nth-child(1) {
+    background-color: white;
+    border-radius: 10px;
+    height: 200px;
+    flex: 2;
+  }
+  .card-wrapper-1 > div:nth-child(2) {
+    background-color: white;
+    border-radius: 10px;
+    height: 200px;
+
+    flex: 1;
+  }
+
+  .card-wrapper-2 {
+    display: flex;
+    gap: 20px;
+  }
+
+  .card-wrapper-2 > div:nth-child(1) {
+    background-color: white;
+    border-radius: 10px;
+    flex: 1;
+    height: 200px;
+  }
+  .card-wrapper-2 > div:nth-child(2) {
+    background-color: white;
+    border-radius: 10px;
+    height: 200px;
+    flex: 2;
+  }
+}
