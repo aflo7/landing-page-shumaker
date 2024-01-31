@@ -1,8 +1,13 @@
-# React + Vite
+This is a remake of the Shumaker Landing Page. I used tech like React, Javascript, HTML, CSS and Vite for this project.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I created a deploy file that deploys the application on every git push.
 
-Currently, two official plugins are available:
+See the site here: https://aflo7.github.io/landing-page-shumaker/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Mobile view
+
+![alt](./mobile.png)
+
+Desktop view
+
+![alt](./desktop.png)
