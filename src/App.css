@@ -133,7 +133,30 @@ h2 {
   display: none;
 }
 
+.mobile-right-nav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.drawer-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.drawer-wrapper > div {
+padding-right: 150px;
+font-weight: bold;
+}
+
+.io-close-btn {
+  cursor: pointer;
+}
+
 @media screen and (min-width: 1000px) {
+  .mobile-right-nav {
+    display: none;
+  }
   .website-wrapper {
     display: block;
   }
@@ -155,9 +178,7 @@ h2 {
     display: flex;
     gap: 30px;
   }
-  .gi-hamburger-menu {
-    display: none;
-  }
+  
 
   .desktop-right-nav > div {
     text-transform: uppercase;
