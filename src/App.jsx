@@ -2,7 +2,7 @@ import './App.css';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { FaSearch } from 'react-icons/fa';
 
-function App() {
+export default function App() {
   return (
     <>
       <div className="nav-wrapper">
@@ -104,5 +104,3 @@ function App() {
     </>
   );
 }
-
-export default App;
