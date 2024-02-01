@@ -49,7 +49,7 @@ export default function App() {
               <div>Mock</div>
             </div>
             <div className="mobile-right-nav">
-              <div>Click to open the drawer &rarr;</div>
+              <div>Click to open &rarr;</div>
               <GiHamburgerMenu
                 onClick={() => setOpened((prev) => !prev)}
                 className="gi-hamburger-menu"
