@@ -27,12 +27,12 @@ export default function App() {
             />
           </div>
           <div className="drawer-wrapper" style={{ padding: '0px 40px' }}>
-            <div>Home</div>
-            <div>Quote</div>
-            <div>Solutions</div>
-            <div>Portfolio</div>
-            <div>Support</div>
-            <div>About</div>
+            <div>Mock</div>
+            <div>Mock</div>
+            <div>Mock</div>
+            <div>Mock</div>
+            <div>Mock</div>
+            <div>Mock</div>
           </div>
         </Drawer>
 
