@@ -2,18 +2,16 @@
   display: none;
 }
 
-.h2-header-wrapper > div:nth-child(1){
+.h2-header-wrapper > div:nth-child(1) {
   display: flex;
   flex-direction: column;
   gap: 60px;
-
 }
 
-.h2-header-wrapper > div > div{
+.h2-header-wrapper > div > div {
   display: flex;
   flex-direction: column;
   gap: 10px;
-
 }
 
 nav {
@@ -175,7 +173,6 @@ h2 {
     cursor: pointer;
   }
   .contact-us-wrapper {
-    /* border: 1px solid red; */
     display: flex;
     justify-content: flex-end;
     padding: 0px 20px;
