@@ -7,15 +7,15 @@ export default function App() {
     <>
       <div className="nav-wrapper">
         <nav>
-          <h1>Shumaker Group</h1>
+          <h1>Logo here</h1>
 
           <div className="desktop-right-nav">
-            <div>Home</div>
-            <div>Quote</div>
-            <div>Solutions</div>
-            <div>Portfolio</div>
-            <div>Support</div>
-            <div>About</div>
+            <div>Mock</div>
+            <div>Mock</div>
+            <div>Mock</div>
+            <div>Mock</div>
+            <div>Mock</div>
+            <div>Mock</div>
           </div>
 
           <GiHamburgerMenu className="gi-hamburger-menu" size="1.5rem" />
