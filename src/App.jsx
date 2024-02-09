@@ -38,7 +38,8 @@ export default function App() {
 
         <div className="nav-wrapper">
           <nav>
-            <h1>Logo here</h1>
+            {/* <h1>Logo here</h1> */}
+            <img src='https://www.shumakergroup.com/wp-content/uploads/2023/08/Group-55-1-2048x853.png' height="60px"/>
 
             <div className="desktop-right-nav">
               <div>Mock</div>
