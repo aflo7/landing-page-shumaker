@@ -145,8 +145,8 @@ h2 {
   gap: 20px;
 }
 .drawer-wrapper > div {
-padding-right: 150px;
-font-weight: bold;
+  padding-right: 150px;
+  font-weight: bold;
 }
 
 .io-close-btn {
@@ -178,7 +178,6 @@ font-weight: bold;
     display: flex;
     gap: 30px;
   }
-  
 
   .desktop-right-nav > div {
     text-transform: uppercase;
@@ -258,15 +257,17 @@ font-weight: bold;
   .card-wrapper-1 > div:nth-child(1) {
     background-color: white;
     border-radius: 10px;
-    height: 200px;
+    height: 240px;
+
     flex: 2;
   }
   .card-wrapper-1 > div:nth-child(2) {
     background-color: white;
     border-radius: 10px;
-    height: 200px;
+    height: 240px;
 
-    flex: 1;
+
+    flex: 1.5;
   }
 
   .card-wrapper-2 {
@@ -277,13 +278,17 @@ font-weight: bold;
   .card-wrapper-2 > div:nth-child(1) {
     background-color: white;
     border-radius: 10px;
-    flex: 1;
-    height: 200px;
+    flex: 1.5;
+    height: 240px;
+
+
   }
   .card-wrapper-2 > div:nth-child(2) {
     background-color: white;
     border-radius: 10px;
-    height: 200px;
+    height: 240px;
+
+
     flex: 2;
   }
 }
